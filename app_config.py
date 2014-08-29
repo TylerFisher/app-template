@@ -79,7 +79,7 @@ DEBUG = True
 """
 COPY EDITING
 """
-COPY_GOOGLE_DOC_URL = 'https://docs.google.com/a/tylerjfisher.com/spreadsheet/ccc?key=0AqjLQISCZzBkdEdkMWJ1OFhLeTNmTkRPQmVrRjBjdlE#gid=1'
+COPY_GOOGLE_DOC_URL = 'https://docs.google.com/spreadsheet/ccc?key=0AqjLQISCZzBkdEdkMWJ1OFhLeTNmTkRPQmVrRjBjdlE'
 COPY_PATH = 'data/copy.xlsx'
 
 """
