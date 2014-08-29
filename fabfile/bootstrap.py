@@ -14,7 +14,7 @@ from fabric.api import execute, local, task
 import utils
 
 @task(default=True)
-def go(github_username='nprapps', repository_name=None):
+def go(github_username='TylerFisher', repository_name=None):
     """
     Execute the bootstrap tasks for a new project.
     """

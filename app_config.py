@@ -22,7 +22,7 @@ PROJECT_FILENAME = '$NEW_PROJECT_FILENAME'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = '$NEW_REPOSITORY_NAME'
-REPOSITORY_URL = 'git@github.com:nprapps/%s.git' % REPOSITORY_NAME
+REPOSITORY_URL = 'git@github.com:TylerFisher/%s.git' % REPOSITORY_NAME
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
 # Project name used for assets rig
@@ -32,9 +32,9 @@ ASSETS_SLUG = '$NEW_PROJECT_SLUG'
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKETS = ['apps.npr.org', 'apps2.npr.org']
-STAGING_S3_BUCKETS = ['stage-apps.npr.org']
-ASSETS_S3_BUCKET = 'assets.apps.npr.org'
+PRODUCTION_S3_BUCKETS = ['apps.tylerjfisher.org']
+STAGING_S3_BUCKETS = ['stage.tylerjfisher.com']
+ASSETS_S3_BUCKET = 'assets.tylerjfisher.com'
 
 PRODUCTION_SERVERS = ['cron.nprapps.org']
 STAGING_SERVERS = ['50.112.92.131']
@@ -79,7 +79,7 @@ DEBUG = True
 """
 COPY EDITING
 """
-COPY_GOOGLE_DOC_URL = 'https://docs.google.com/spreadsheet/ccc?key=0AlXMOHKxzQVRdHZuX1UycXplRlBfLVB0UVNldHJYZmc&usp=drive_web#gid=1'
+COPY_GOOGLE_DOC_URL = 'https://docs.google.com/a/tylerjfisher.com/spreadsheet/ccc?key=0AqjLQISCZzBkdEdkMWJ1OFhLeTNmTkRPQmVrRjBjdlE#gid=1'
 COPY_PATH = 'data/copy.xlsx'
 
 """
@@ -102,7 +102,7 @@ NPR_DFP = {
 SERVICES
 """
 GOOGLE_ANALYTICS = {
-    'ACCOUNT_ID': 'UA-5828686-4',
+    'ACCOUNT_ID': 'UA-47886951-2',
     'DOMAIN': PRODUCTION_S3_BUCKETS[0],
     'TOPICS': '' # e.g. '[1014,3,1003,1002,1001]'
 }
